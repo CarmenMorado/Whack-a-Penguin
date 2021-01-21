@@ -16,6 +16,10 @@
 		739C655625B52FA2002234AC /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 739C655425B52FA2002234AC /* whackBad.caf */; };
 		739C655725B52FA2002234AC /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 739C655525B52FA2002234AC /* whack.caf */; };
 		739C655A25B53278002234AC /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C655925B53278002234AC /* WhackSlot.swift */; };
+		739C655E25B78426002234AC /* You're done.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 739C655D25B78426002234AC /* You're done.m4a */; };
+		739C656A25B7B690002234AC /* BlueSmokeParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 739C656925B7B690002234AC /* BlueSmokeParticles.sks */; };
+		739C657525B8F170002234AC /* MudParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 739C657425B8F170002234AC /* MudParticles.sks */; };
+		739C657925B90B3D002234AC /* RedSmokeParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 739C657825B90B3D002234AC /* RedSmokeParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		739C655425B52FA2002234AC /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		739C655525B52FA2002234AC /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		739C655925B53278002234AC /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		739C655D25B78426002234AC /* You're done.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You're done.m4a"; sourceTree = "<group>"; };
+		739C656925B7B690002234AC /* BlueSmokeParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlueSmokeParticles.sks; sourceTree = "<group>"; };
+		739C657425B8F170002234AC /* MudParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MudParticles.sks; sourceTree = "<group>"; };
+		739C657825B90B3D002234AC /* RedSmokeParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedSmokeParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,9 @@
 				739C653E25B52DF7002234AC /* AppDelegate.swift */,
 				739C654025B52DF7002234AC /* GameScene.sks */,
 				739C654425B52DF7002234AC /* GameScene.swift */,
+				739C656925B7B690002234AC /* BlueSmokeParticles.sks */,
+				739C657825B90B3D002234AC /* RedSmokeParticles.sks */,
+				739C657425B8F170002234AC /* MudParticles.sks */,
 				739C654625B52DF7002234AC /* GameViewController.swift */,
 				739C655925B53278002234AC /* WhackSlot.swift */,
 				739C654825B52DF7002234AC /* Main.storyboard */,
@@ -72,6 +83,7 @@
 				739C654D25B52DFB002234AC /* Info.plist */,
 				739C655525B52FA2002234AC /* whack.caf */,
 				739C655425B52FA2002234AC /* whackBad.caf */,
+				739C655D25B78426002234AC /* You're done.m4a */,
 			);
 			path = Project14;
 			sourceTree = "<group>";
@@ -133,10 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739C656A25B7B690002234AC /* BlueSmokeParticles.sks in Resources */,
 				739C654A25B52DF7002234AC /* Main.storyboard in Resources */,
 				739C655725B52FA2002234AC /* whack.caf in Resources */,
 				739C655625B52FA2002234AC /* whackBad.caf in Resources */,
+				739C657525B8F170002234AC /* MudParticles.sks in Resources */,
 				739C654125B52DF7002234AC /* GameScene.sks in Resources */,
+				739C655E25B78426002234AC /* You're done.m4a in Resources */,
+				739C657925B90B3D002234AC /* RedSmokeParticles.sks in Resources */,
 				739C654C25B52DFB002234AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
